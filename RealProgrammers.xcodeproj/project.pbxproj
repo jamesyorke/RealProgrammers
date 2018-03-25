@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABA159432067F36E0007CA6B /* Double+Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA159422067F36E0007CA6B /* Double+Time.swift */; };
 		ABB287C92063FA9300680F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287C82063FA9300680F50 /* AppDelegate.swift */; };
 		ABB287CB2063FA9300680F50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287CA2063FA9300680F50 /* ViewController.swift */; };
 		ABB287CE2063FA9300680F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB287CC2063FA9300680F50 /* Main.storyboard */; };
 		ABB287D02063FA9300680F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB287CF2063FA9300680F50 /* Assets.xcassets */; };
 		ABB287D32063FA9300680F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB287D12063FA9300680F50 /* LaunchScreen.storyboard */; };
+		ABB287DB2063FAED00680F50 /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287DA2063FAED00680F50 /* Programmer.swift */; };
+		ABB287DD2063FD0600680F50 /* ShowProgrammersListUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287DC2063FD0600680F50 /* ShowProgrammersListUseCase.swift */; };
+		ABB287DF2063FDDA00680F50 /* GenericRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287DE2063FDDA00680F50 /* GenericRepository.swift */; };
+		ABB287E12063FF0400680F50 /* ProgrammerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287E02063FF0400680F50 /* ProgrammerViewModel.swift */; };
+		ABB287E32063FFF700680F50 /* ProgrammersListPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287E22063FFF700680F50 /* ProgrammersListPresentation.swift */; };
+		ABB287E52064017B00680F50 /* ProgrammersListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287E42064017B00680F50 /* ProgrammersListPresenter.swift */; };
+		ABB287E72064038800680F50 /* ProgrammersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287E62064038800680F50 /* ProgrammersTableViewController.swift */; };
+		ABB287E92064061A00680F50 /* ProgrammerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287E82064061A00680F50 /* ProgrammerTableViewCell.swift */; };
+		ABB287EB2064077400680F50 /* ProgrammerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287EA2064077400680F50 /* ProgrammerCellView.swift */; };
+		ABB287ED20640C0C00680F50 /* Date+RealProgrammers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287EC20640C0C00680F50 /* Date+RealProgrammers.swift */; };
+		ABB287EF20640E5200680F50 /* ProgrammersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB287EE20640E5200680F50 /* ProgrammersRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ABA159422067F36E0007CA6B /* Double+Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Time.swift"; sourceTree = "<group>"; };
 		ABB287C52063FA9200680F50 /* RealProgrammers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealProgrammers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB287C82063FA9300680F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABB287CA2063FA9300680F50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,17 @@
 		ABB287CF2063FA9300680F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABB287D22063FA9300680F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABB287D42063FA9300680F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB287DA2063FAED00680F50 /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
+		ABB287DC2063FD0600680F50 /* ShowProgrammersListUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowProgrammersListUseCase.swift; sourceTree = "<group>"; };
+		ABB287DE2063FDDA00680F50 /* GenericRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericRepository.swift; sourceTree = "<group>"; };
+		ABB287E02063FF0400680F50 /* ProgrammerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerViewModel.swift; sourceTree = "<group>"; };
+		ABB287E22063FFF700680F50 /* ProgrammersListPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammersListPresentation.swift; sourceTree = "<group>"; };
+		ABB287E42064017B00680F50 /* ProgrammersListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammersListPresenter.swift; sourceTree = "<group>"; };
+		ABB287E62064038800680F50 /* ProgrammersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammersTableViewController.swift; sourceTree = "<group>"; };
+		ABB287E82064061A00680F50 /* ProgrammerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerTableViewCell.swift; sourceTree = "<group>"; };
+		ABB287EA2064077400680F50 /* ProgrammerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammerCellView.swift; sourceTree = "<group>"; };
+		ABB287EC20640C0C00680F50 /* Date+RealProgrammers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+RealProgrammers.swift"; sourceTree = "<group>"; };
+		ABB287EE20640E5200680F50 /* ProgrammersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammersRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +59,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ABA1593C2067E69A0007CA6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABB287DA2063FAED00680F50 /* Programmer.swift */,
+				ABB287E02063FF0400680F50 /* ProgrammerViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABA1593D2067E6A50007CA6B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ABB287EC20640C0C00680F50 /* Date+RealProgrammers.swift */,
+				ABA159422067F36E0007CA6B /* Double+Time.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ABA1593E2067E6B20007CA6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABB287E62064038800680F50 /* ProgrammersTableViewController.swift */,
+				ABB287EA2064077400680F50 /* ProgrammerCellView.swift */,
+				ABB287E82064061A00680F50 /* ProgrammerTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABA1593F2067E6B70007CA6B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				ABB287E22063FFF700680F50 /* ProgrammersListPresentation.swift */,
+				ABB287E42064017B00680F50 /* ProgrammersListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		ABA159402067E6CC0007CA6B /* PersistenceRepository */ = {
+			isa = PBXGroup;
+			children = (
+				ABB287DE2063FDDA00680F50 /* GenericRepository.swift */,
+				ABB287EE20640E5200680F50 /* ProgrammersRepository.swift */,
+			);
+			path = PersistenceRepository;
+			sourceTree = "<group>";
+		};
+		ABA159412067E7C40007CA6B /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				ABB287DC2063FD0600680F50 /* ShowProgrammersListUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
 		ABB287BC2063FA9200680F50 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +134,12 @@
 			children = (
 				ABB287C82063FA9300680F50 /* AppDelegate.swift */,
 				ABB287CA2063FA9300680F50 /* ViewController.swift */,
+				ABA159412067E7C40007CA6B /* UseCase */,
+				ABA1593F2067E6B70007CA6B /* Presenter */,
+				ABA159402067E6CC0007CA6B /* PersistenceRepository */,
+				ABA1593E2067E6B20007CA6B /* View */,
+				ABA1593C2067E69A0007CA6B /* Model */,
+				ABA1593D2067E6A50007CA6B /* Extension */,
 				ABB287CC2063FA9300680F50 /* Main.storyboard */,
 				ABB287CF2063FA9300680F50 /* Assets.xcassets */,
 				ABB287D12063FA9300680F50 /* LaunchScreen.storyboard */,
@@ -136,7 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB287EB2064077400680F50 /* ProgrammerCellView.swift in Sources */,
+				ABB287E12063FF0400680F50 /* ProgrammerViewModel.swift in Sources */,
+				ABB287E92064061A00680F50 /* ProgrammerTableViewCell.swift in Sources */,
+				ABB287DD2063FD0600680F50 /* ShowProgrammersListUseCase.swift in Sources */,
+				ABB287E32063FFF700680F50 /* ProgrammersListPresentation.swift in Sources */,
+				ABB287ED20640C0C00680F50 /* Date+RealProgrammers.swift in Sources */,
+				ABB287E72064038800680F50 /* ProgrammersTableViewController.swift in Sources */,
+				ABB287EF20640E5200680F50 /* ProgrammersRepository.swift in Sources */,
 				ABB287CB2063FA9300680F50 /* ViewController.swift in Sources */,
+				ABB287E52064017B00680F50 /* ProgrammersListPresenter.swift in Sources */,
+				ABB287DB2063FAED00680F50 /* Programmer.swift in Sources */,
+				ABA159432067F36E0007CA6B /* Double+Time.swift in Sources */,
+				ABB287DF2063FDDA00680F50 /* GenericRepository.swift in Sources */,
 				ABB287C92063FA9300680F50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
